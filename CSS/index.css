@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(255, 0, 179);
+}
+p.divison {
+    background-color: aquamarine;
+}
+.flageolet {
+    font-size: 60px;
+}
+a {
+    background-color:brown
+}
+a {
+    display: block;
+}
+h4 {
+    display:inline;
+}
+hr.different {
+    display:inline;
+}
+.center {text-align: center;
+}
