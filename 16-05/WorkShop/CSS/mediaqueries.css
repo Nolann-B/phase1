@@ -1,0 +1,77 @@
+*{
+    text-align: center;
+}
+.content{
+    background-color: orange;
+    width: 50%; 
+    /* if not parent width then basic width is taken */
+    min-height: 500px;
+    margin:auto;
+}
+header{
+        height: 150px;
+        background-color: blanchedalmond;
+}
+nav {
+        height: 100px;
+        background-color: violet;
+}
+main section:first-child{
+    background-color: red;
+    height: 200px;
+}
+main section:nth-child(2){
+    background-color: blue;
+    height: 30px;
+}
+main section:last-child{
+    padding: 30px;
+    border: 1px solid violet;
+}
+footer{
+    background-color: blueviolet;
+    height: 80px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* Enlever le cadre d'une balise paragraphe */
+@media only screen and (max-width: 1200px){
+    *{
+        text-align: left;
+    }
+    .content {
+        background-color: green;
+        width: 100%;
+    }
+    header{
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 750px){
+    header{
+        height: 80px;
+    }
+    .content {
+        background-color: lightblue;
+        width: 80%;
+        /* la width decoule de son parent donc 80% de 100% */
+    }
+}
+@media only screen and (max-width: 600px){
+    .content {
+        background-color: red;
+        width: 50%;
+        /* elle decoule donc 50% de 80% de son parent*/
+    }
+}
+@media only screen and (max-width: 500px){
+main section:last-child{
+    font-size: 24px;
+    }
+main section:first-child{
+    font-size: 50px;
+}
+}
+
