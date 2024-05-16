@@ -1,0 +1,53 @@
+* {
+    font-family: fantasy;
+}
+table{
+    width: 50%;
+    margin: auto;
+    /* margin-top: 100px; */
+    border-collapse: collapse;
+    border: 4px;
+}
+td{
+  border: 1px solid #6a5acd;
+  text-align: center;
+  padding: 5px;  
+}
+th{
+    width: 25px;
+    background-color: rgb(231, 194, 245);
+    padding: 4px;
+}
+caption{
+    background-color: rgb(215, 208, 255);
+    color:darkmagenta;
+    font-size: 30px;
+    padding: 10px;
+}
+td:first-child{
+    background-color:rgb(231, 194, 245); 
+    text-align: left;
+    padding-left: 12px;  
+}
+tfoot td {
+    background-color:rgb(231, 194, 245);
+}
+th, td {
+    border: 1px dotted purple;
+}
+table {
+    border: 4px solid purple;
+}
+tfoot {
+    border: 2px double purple;
+}
+tbody {
+    border: 3px double purple;
+}
+.T3 {
+border: 1px solid black;
+border-collapse: collapse;
+}
+.Tab3{
+    border: 5px purple;
+}
