@@ -3,11 +3,11 @@
      font-family: cursive;
 }
 .content{
-    width:1200px;
+    width:100%;
     min-height: 500px;
     margin: 0px;
     background-color: red;
-    border: 2px solid #000;
+    border: 1px solid #000;
     padding: 0px;
 }
 footer,header{
@@ -24,4 +24,11 @@ main section{
     background-color: #e6e2aF;
     height: 500px;
     border: 20px solid #787746;
+}
+@media only screen and (max-width:750px){
+    section {
+        background: url(/17-05/img/acacia.webp);
+        background-position: center;
+        background-size: cover;
+    }
 }
