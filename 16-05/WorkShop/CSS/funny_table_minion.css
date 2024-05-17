@@ -1,0 +1,32 @@
+table{
+    margin: 100px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+        width: 30px;height: 30px;
+        border: 1px solid black;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.grey{
+    background-color: grey;
+}
+tr:nth-last-child(1){
+    background-color: lightgreen;
+}
+@media only screen and (max-width:750px){
+    .mechant{
+        background-color: red;
+    } 
+    .azur{
+        background-color: rgb(230, 173, 173);
+    }
+}
