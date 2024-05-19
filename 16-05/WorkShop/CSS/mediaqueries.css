@@ -3,7 +3,8 @@
 }
 .content{
     background-color: orange;
-    width: 50%; 
+    width: 50%;
+    height: 100%; 
     /* if not parent width then basic width is taken */
     min-height: 500px;
     margin:auto;

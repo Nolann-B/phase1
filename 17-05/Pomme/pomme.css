@@ -1,4 +1,5 @@
 body{
+    max-width: 100%;
     background: rgb(207,251,148);
     background: linear-gradient(180deg, rgba(207,251,148,1) 35%, rgba(2,0,36,0.08167016806722693) 100%, rgba(0,212,255,1) 100%);
     
@@ -11,7 +12,7 @@ body{
 }
 img{
     display: inline;
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 .main{
     display: block;
@@ -21,4 +22,12 @@ img{
 }
 .clear{
     clear: both;
+}
+li {
+    display: inline;
+
+}
+
+.border{
+    padding: 15px;
 }
