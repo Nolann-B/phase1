@@ -12,10 +12,15 @@ li{
     display: inline;
     color: white;
     font-size: large;
-    background-color: rgba(111, 215, 14, 0.942);
+    border: 1px solid white;
+    margin: 1em;  
+}
+nav{
+        background-color: rgba(111, 215, 14, 0.942);
 }
 ul{
     display: inline;
+    width: fit-content;
 }
 main{
     display: inline-block;
@@ -32,6 +37,8 @@ h3{
 .Titre{
       border-bottom: 1px solid rgb(150, 223, 95);
       margin: auto;
+      padding-left: 1em;
+      color: rgba(158, 234, 37, 0.623);
 
 }
 h3{
@@ -41,6 +48,10 @@ h3{
     font-size: large;
     color: rgb(150, 223, 95);
 }
+a:link{
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+}
 .border{
 }
 .border-div{
@@ -49,15 +60,23 @@ h3{
 .footer{
     text-align: right;
     color: rgb(150, 223, 95);
+    margin: 0px;
+}
+.liste{
+}
+p{
+    text-align:justify;
+    padding-left: 1em; 
+    padding-right: 2em;
+}
+@media only screen and (max-width:1500px) {
+    body{
+        max-width: 75%;
+    }  
 }
 @media only screen and (max-width:1200px) {
     body{
-        max-width: 50%;
-    }  
-}
-@media only screen and (max-width:750px) {
-    body{
-        max-width: 75%;
+        max-width: 65%;
     }  
 }
 @media only screen and (max-width:500px) {
