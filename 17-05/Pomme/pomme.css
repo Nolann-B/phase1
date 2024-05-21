@@ -1,4 +1,8 @@
 body{
+<<<<<<< HEAD
+    max-width: 100%;
+=======
+>>>>>>> 4f9226444a8129ad6b2e3b17c1b1ecbb81bd3c70
     background: rgb(207,251,148);
     background: linear-gradient(180deg, rgba(207,251,148,1) 35%, rgba(2,0,36,0.08167016806722693) 100%, rgba(0,212,255,1) 100%);
     
@@ -11,7 +15,11 @@ body{
 }
 img{
     display: inline;
+<<<<<<< HEAD
+    /* max-width: 50%; */
+=======
     max-width: 50%;
+>>>>>>> 4f9226444a8129ad6b2e3b17c1b1ecbb81bd3c70
 }
 .main{
     display: block;
@@ -21,4 +29,15 @@ img{
 }
 .clear{
     clear: both;
+<<<<<<< HEAD
+}
+li {
+    display: inline;
+
+}
+
+.border{
+    padding: 15px;
+=======
+>>>>>>> 4f9226444a8129ad6b2e3b17c1b1ecbb81bd3c70
 }
