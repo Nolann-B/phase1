@@ -1,0 +1,51 @@
+main{
+padding: 10px;
+}
+div{
+    min-height: 80px;
+    border: 1px solid orange;
+    margin: 10px;
+    background-color: white;
+
+}
+#exo1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+#exo2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#exo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#exo4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+section{
+    width: 40px;
+    height: 40px;
+}
+section:nth-child(even){
+    flex-basis: 80px;
+}
+#saumon{
+    background-color: salmon;
+}
+#rouge{
+    background-color: red;
+}
+#vert{
+    background-color: lightgreen;
+}
+body{
+ background-color: rgba(127, 255, 212, 0.247);
+}

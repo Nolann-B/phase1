@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#content{
+    width: 1200px;
+    background-color: rgba(241, 124, 56, 0.616);
+    margin: auto;
+    
+}
+.equipe{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 5px;
+}
+main > section:first-child{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.equipe:nth-child(odd){
+    background-color: lightpink;
+}
+.equipe:nth-child(even){
+    background-color: lightblue;
+}
+@media only screen and (max-width: 1200px) {
+    #content{
+        width: 80%;
+    }
+}
