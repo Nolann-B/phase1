@@ -13,7 +13,6 @@ div{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: flex-end;
-    
 }
 #exo2{
     display: flex;
