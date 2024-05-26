@@ -65,7 +65,7 @@ footer{
 
 @media (max-width:1398px) {
     #body{
-        width: 60%;
-        height: 60%;
+        max-width: 60%;
+        max-height: 60%;
     }
 }
