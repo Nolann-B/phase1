@@ -1,0 +1,75 @@
+
+
+/* *****  *FONTS*  ***** */
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* *****  *ALL ELEMENT*  ***** */
+
+*{
+    font-family: "Kufam", sans-serif;
+    color: white;
+}
+
+/* *****  *BODY*  ***** */
+
+#body{
+    width: 1400px;
+    background-color: lightgrey;
+}
+
+/* *****  *HEADER*  ***** */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(45,253,149);
+    background: linear-gradient(180deg, rgba(45,253,149,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+#h_left{
+    display: flex;
+    padding: 20px;
+}
+#h_right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#h_right > a {
+    height: 30px;
+}
+
+/* *****  *NAV*  ***** */
+
+#defilant{
+    background-color: rgb(0,212,255);
+    border: double 4px white;
+    padding: 5px;
+    /* animation: defilement-rtl 15s infinite linear; */
+}
+
+/* *****  *MAIN*  ***** */
+/* *****  *FOOTER*  ***** */
+
+footer{
+
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 50%, rgba(45,253,149,1) 100%);
+}
+/* *****  *MEDIA QUERIES*  ***** */
+
+@media (max-width:1398.99px) {
+    #body{
+        width: 80%;
+    }
+}
+
+@media (max-width:960px) {
+    #body{
+        width: 100%;
+    }
+}
+
