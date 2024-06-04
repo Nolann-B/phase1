@@ -9,37 +9,48 @@
 *{
     font-family: "Kufam", sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* *****  *BODY*  ***** */
 
 #body{
-    width: 1400px;
+    /* width: 1400px; */
     background-color: lightgrey;
 }
 
 /* *****  *HEADER*  ***** */
 
 header{
+    height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: rgb(45,253,149);
     background: linear-gradient(180deg, rgba(45,253,149,1) 50%, rgba(0,212,255,1) 100%);
 }
 
 #h_left{
     display: flex;
-    padding: 20px;
-}
-#h_right{
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
-#h_right > a {
-    height: 30px;
+#h_right > ul{
+    /* width: 30%; */
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 20px; */
+}
+li {
+    /* height: 15px; */
+    padding: 15px
+}
+a{
+    text-decoration: none;
 }
 
 /* *****  *NAV*  ***** */
@@ -47,11 +58,42 @@ header{
 #defilant{
     background-color: rgb(0,212,255);
     border: double 4px white;
-    padding: 5px;
+    padding: 10px;
+    /* height: 40px; */
     /* animation: defilement-rtl 15s infinite linear; */
 }
 
 /* *****  *MAIN*  ***** */
+
+main{
+    width: 1400px;
+}
+
+.main_content{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.main_content > #content1{
+    height: 30%;
+    background: linear-gradient(rgba(86,166,241,1) , rgba(191,129,148,1));
+    margin: 15px;
+    border-radius:10% 10% 10% 10%;
+}
+.main_content > #content2{
+    height: 30%;
+    background: linear-gradient(rgb(70,134,195),rgb(97,227,194));
+    margin: 15px;
+    border-radius:10% 10% 10% 10%;
+}
+.main_content > #content3{
+    height: 30%;
+    background: linear-gradient(rgb(226,132,23),rgb(92,144,181));
+    margin: 15px;
+    border-radius:10% 10% 10% 10%;
+}
+
 /* *****  *FOOTER*  ***** */
 
 footer{
@@ -62,14 +104,20 @@ footer{
 /* *****  *MEDIA QUERIES*  ***** */
 
 @media (max-width:1398.99px) {
-    #body{
+    main{
+        width: 100%;
+    }
+    .main_content{
         width: 80%;
     }
 }
 
 @media (max-width:960px) {
-    #body{
+    main{
         width: 100%;
+    }
+    .main_content{
+        width: 80%;
     }
 }
 
