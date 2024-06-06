@@ -1,0 +1,116 @@
+ /* .caveat-brush-regular {
+        font-family: "Caveat Brush", cursive;
+        font-weight: 400;
+        font-style: normal;
+      } */
+*{
+    font-family: "Caveat Brush", Times;
+    margin: 0;
+    padding: 0;
+}
+/* ALL CONTENT DIV */
+
+#all_content{
+    width:1200px;
+}
+/********* HEADER *******/
+
+header{
+    background-image: url(/06_06/ce_soir/img/plank.jfif);
+}
+#cerf {
+    display: flex;
+    /* align-items: center; */
+}
+#cerf > img {
+    margin: auto;
+    padding-top: 50px;
+}
+/* NAV */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* .nav{
+    padding: 20px;
+} */
+p > sup {
+    text-decoration: underline;
+}
+.nav > p{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.303);
+    border-radius: 15px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-around;
+}
+li{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.303);
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    
+}
+
+/* ***** MAIN ****** */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.p_content{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.p_content > section {
+    margin: auto;
+    width: 30%;
+}
+.p_content > hr {
+    width: 5px;
+    background-color: pink;
+
+}
+.content > img {
+    width: 40%;
+}
+/* .content > img {
+    width: 100px;
+} */
+/* MEDIA QUERIES */
+@media (max-width:1200px){
+    #all_content{
+        width: 80%;
+    }
+}
+@media (max-width:1198.99px){
+    #all_content{
+        width: 80%;
+    }
+}
+@media (max-width:959.99px){
+    #all_content{
+        width: 80%;
+    }
+}
+@media (max-width:559.99px){
+    #all_content{
+        width: 80%;
+    }
+}
