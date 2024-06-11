@@ -1,0 +1,74 @@
+
+body{
+    height: 1200px;
+}
+.carre{
+    width: 100px;
+    height: 100px;
+}
+
+#jaune{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#rouge{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#bleu{
+    background-color: blue;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+#vert{
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+.conteneur{
+    position: relative;
+    height: 100%;
+    margin: 80px;
+}
+.triangle{
+    /* Autre maniere de faire un triangle */
+    /* (polygon etc etc) */
+    height: 0;
+    width: 0;
+ 	border-top: 150px solid #f744eb;  
+    border-right: 94px solid transparent;
+    border-left: 94px solid transparent;
+    position: sticky;
+    top: 0;
+    left: calc(50% - 94px);
+    /* -94px car 50% ne s'applique pas au centre de notre objet donc on lui enleve sa largeur pour le centrer */
+    z-index: 2;
+}
+.rond{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;  
+    background-color: skyblue;      
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    z-index: 1;
+}
+.ombre{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background-color: rgba(85, 81, 81, 0.639);
+    position: relative;    
+    top: calc(20% - 40px);
+    left: calc(50% - 40px);
+}
